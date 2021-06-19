@@ -17,9 +17,7 @@ const ShoeGrid = () => {
 const Wrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin-left: -18px;
-  margin-right: -18px;
+  margin: -18px;
 `;
 
 export default ShoeGrid;

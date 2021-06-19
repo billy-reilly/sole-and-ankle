@@ -54,16 +54,8 @@ const Link = styled.a`
   text-decoration: none;
   color: inherit;
   padding: 18px;
-
-  @media (min-width: 820px) {
-    flex-basis: 50%;
-  }
-  @media (min-width: 1150px) {
-    flex-basis: 33%;
-  }
-  @media (min-width: 1450px) {
-    flex-basis: 25%;
-  }
+  min-width: 275px;
+  flex: 1;
 `;
 
 const Wrapper = styled.article`
