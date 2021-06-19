@@ -33,7 +33,7 @@ const MainHeader = styled.div`
   padding: 0 32px;
   border-bottom: 1px solid ${COLORS.gray[300]};
   display: flex;
-  align-items: center;
+  align-items: baseline;
 `;
 
 const LogoWrapper = styled.div`
